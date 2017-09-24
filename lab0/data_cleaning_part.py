@@ -35,6 +35,7 @@ convert_to_csv("CatalogDump.txt")
 # Error: when I wanted to change year-to-date circ field to integer
 # ValueError: invalid literal for int() with base 10: 'b1000158x'
 
+# Figure out the program: In line 18: there was an extra comma in title (i.e. title, 1984 so I manually kept that 1984 inside the title deleting that extra comma between title and 1984)
 
-
+# Also, in line 18: there's one NaN in the field of Total Renewals
 
