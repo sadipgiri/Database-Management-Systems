@@ -35,7 +35,27 @@ convert_to_csv("CatalogDump.txt")
 # Error: when I wanted to change year-to-date circ field to integer
 # ValueError: invalid literal for int() with base 10: 'b1000158x'
 
-# Figure out the program: In line 18: there was an extra comma in title (i.e. title, 1984 so I manually kept that 1984 inside the title deleting that extra comma between title and 1984)
 
-# Also, in line 18: there's one NaN in the field of Total Renewals
+
+# Deleted first row of the clean_CatalogDump file so that it will be easier to copy in PSQL
+'''
+def deleteFirstRow(fileName):
+	file = pd.read_csv("clean_CatalogDump.txt")
+	file = file[1:]
+	return file
+'''
+
+# NOOO
+# just ignore header in psql 
+# mydb=# \COPY library_catalog FROM 'clean_CatalogDump.txt' CSV HEADER DELIMITER ',';
+
+
+# my myself super user
+# sudo -u postgres psql
+# then it will ask for password
+# psql mydb
+# CREAT a table
+# then copy as given above
+
+
 
