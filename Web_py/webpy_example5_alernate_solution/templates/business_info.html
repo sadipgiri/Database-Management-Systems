@@ -1,0 +1,28 @@
+$def with (business_info)
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business Information</title>
+</head>
+<body>
+	$for fields in business_info:
+		<ol>
+			<li><strong> Name: </strong> $fields.name</li>
+			<li><strong> Neighborhood: </strong> $fields.neighborhood</li>
+			<li><strong> Address: </strong> $fields.address</li>
+			<li><strong> City: </strong> $fields.city</li>
+			<li><strong> Sate: </strong> $fields.state</li>
+			<li><strong> Postal Code: </strong> $fields.postal_code</li>
+			<li><strong> Latitude: </strong> $fields.latitude</li>
+			<li><strong> Longitude: </strong> $fields.longitude</li>
+			<li><strong> Stars: </strong> $fields.stars</li>
+			<li><strong> Number of reviews: </strong> $fields.review_count</li>
+			<li><strong> Is it open?: </strong>
+				$if fields.is_open == 1:
+					Hurray! its open!
+				$else:
+					Sorry! we are closed today!	
+			</li>
+		</ol>
+</body>
+</html>

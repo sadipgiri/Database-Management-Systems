@@ -1,0 +1,20 @@
+$def with (businesses)
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Businness</title>
+</head>
+<body>
+	<ol>
+		$for business in businesses:
+		<li>
+			<a href="http://localhost:8080/businessinfo/$business.id">
+				$business.name
+			</a>
+			<a href="http://localhost:8080/review/$business.review_id">
+				Review
+			</a>			
+		</li>
+	</ol>
+</body>
+</html>

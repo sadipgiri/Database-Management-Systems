@@ -1,0 +1,18 @@
+$def with (review_info)
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review Information</title>
+</head>
+<body>
+	$for fields in review_info:
+		<ol>
+			<li><strong> Stars: </strong> $fields.stars</li>
+			<li><strong> Date: </strong> $fields.date</li>
+			<li><strong> text: </strong> $fields.text</li>
+			<li><strong> Useful: </strong> $fields.useful</li>
+			<li><strong> Funny: </strong> $fields.funny</li>
+			<li><strong> Cool: </strong> $fields.cool</li>
+		</ol>
+</body>
+</html>

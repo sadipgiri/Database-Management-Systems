@@ -1,0 +1,23 @@
+otf00007132,Slide Tray,4,b1000001x,0,0,0,0
+otf00026806,"Bennington College Recent Articles by Alumni and Faculty About the College and Faculty",t,b10000021,0,0,0,0
+otf00027412,Symposium Report of the Bennington College Board of Trustees,t,b10000033,0,0,0,0
+otf00028610,"NEASC Accreditation Report March 21 2000",t,b10000045,0,0,0,0
+otf00029773,Titanium Headphones,4,b10000057,0,0,0,0
+otf00036057,Student Council Minutes,t,b10000082,0,0,1,0
+otf00037051,Panasonic VCR remote control,4,b10000100,0,0,1,0
+otf00037486,remote control,4,b10000112,0,0,0,0
+otf00038591,Slide Keys,4,b10000124,0,0,45,0
+otf00043761,Slide Protector Sheet,4,b1000015x,0,0,0,0
+otf00044170,Bennington College - Evaluation Project,t,b10000161,0,0,0,0
+otf00047465,Student Handbook,t,b10000318,0,0,0,0
+otf00047909,Headphones,4,b10000367,0,0,0,0
+otf00048448,Remote,4,b10000380,0,0,9,0
+otf00048765,Love Match from VIDEO NIGHT IN KATHMANDU,t,b10000392,0,0,0,0
+otf00048785,Chapter 1. The Music-Culture as a World of Music from WORLDS OF MUSIC,t,b10000409,0,0,0,0
+otf00049946,"Chapter 5. Asia Massive: Home Abroad with Brit-Asian Tracks pages 181-236",t,b10000677,0,0,0,0
+otf00050869,The Empire Strikes Back from VIDEO NIGHT IN KATHMANDU,t,b10001566,0,0,0,0
+otf00050871,Music Mediated and Live in Japan from Ethnomusicology 1984,t,b1000158x,0,0,0,0
+otf00050875,Chapter 14. Chinese Traditional Opera from MUSIC OF THE BILLION,t,b10001621,0,0,0,0
+otf00050877,Chapter 12. The Art of the Qin from MUSIC OF THE BILLION,t,b10001645,0,0,0,0
+otf00050879,Chapter 5. Cui Jian and the Ideology of Chinese Rock Music from LIKE A KNIFE,t,b10001669,0,0,0,0
+otf00051036,The Splendors of Tibet,a,b10001694,0,0,1,10

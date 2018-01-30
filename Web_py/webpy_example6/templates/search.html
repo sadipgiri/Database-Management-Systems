@@ -1,0 +1,13 @@
+$def with (states)
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first Search form</title>
+</head>
+<body>
+	<select name="state">
+		$for i in states:
+			<option value="$i.state">$i</option>
+	</select>
+</body>
+</html>
